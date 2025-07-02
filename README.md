@@ -2,14 +2,16 @@
 
 ## 🧠 Project Overview
 ### 🎯 Tujuan 
-Tujuan dari proyek ini untuk menyediakan sistem otomatis agar dapat mengklasifikasikan berita ke dalam kategori (seperti politik, ekonomi, teknologi, olahraga, kesehatan dan hiburan) menggunakan Large Language Models (LLM).
+  Proyek ini bertujuan untuk membangun sistem klasifikasi berita otomatis menggunakan Large Language Model (LLM) berbasis prompt instruction. Sistem ini dirancang untuk mampu mengelompokkan berita ke dalam kategori utama seperti politik, ekonomi, teknologi, olahraga, kesehatan, dan hiburan tanpa memerlukan pelabelan manual atau pelatihan ulang model. Dengan memanfaatkan kemampuan LLM dalam memahami konteks dan bahasa alami, sistem ini diharapkan memberikan klasifikasi yang cepat, fleksibel, dan akurat terhadap berbagai topik berita.
 ### 📌 Latar Belakang
-Banyaknya jumlah berita membuat sulit untuk mengorganisir dan memahami topik berita secara efisien. Dibutuhkan sistem klasifikasi otomatis yang cerdas dan akurat untuk mengkategorikan berita.
-###❗Permasalahan Relevan
+  Di era digital saat ini, produksi berita berlangsung dalam jumlah yang sangat besar setiap hari dari berbagai sumber dan platform. Hal ini menciptakan tantangan besar dalam mengelola, menyaring, dan mengkategorikan informasi secara efisien. Sistem klasifikasi otomatis menjadi sangat penting untuk:
+- Menyajikan berita secara terstruktur kepada pengguna.
+- Meningkatkan pengalaman pembaca melalui pengelompokan konten yang relevan.
+- Mendukung sistem rekomendasi, pemilihan konten, dan analisis media.
+### 🚩 Permasalahan Relevan
 Kurangnya sistem klasifikasi yang fleksibel terhadap bahasa manusia dan konteks berita yang kompleks.
 ### 🛠️ Pendekatan
 Proyek menggunakan LLM model ibm-granite-3.3-8b-instruct via Replicate untuk klasifikasi teks berita berbasis prompt-instruction.
-
 ## 🔗 Raw Dataset
 Dataset berita diambil dari Kaggle: https://www.kaggle.com/code/gpreda/bbc-news-rss-feeds
 
